@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../img/linux-vs-windows.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+#countdown {
+    font-size: 6rem;
+    font-weight: 300;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    margin-bottom: 40px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#timeInput {
+    width: 6rem;
+    padding: 10px;
+    border-radius: 0.3rem; /* Bordes ligeramente redondeados */
+    font-size: 1.25rem;
+    background-color: #343a40; /* Gris oscuro */
+    color: white;
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.25rem;
+    border-radius: 0.3rem; /* Bordes redondeados */
+}
+
+.btn-outline-dark {
+    border-color: #343a40;
+    color: #343a40;
+}
+
+.btn-outline-dark:hover {
+    background-color: #343a40;
+    color: white;
+}

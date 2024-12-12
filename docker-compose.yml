@@ -1,0 +1,7 @@
+services:
+    web:
+        image: nginx:latest
+        ports:
+          - "8090:80"
+        volumes:
+          - ./web:/usr/share/nginx/html
